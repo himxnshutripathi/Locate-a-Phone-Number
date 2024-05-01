@@ -5,6 +5,7 @@ from phonenumbers import timezone, geocoder, carrier
 
 root = Tk()
 canvas = Canvas(root)
+root.title("Locate Phone")
 root.geometry("300x400")
 root.resizable(False, False)
 
